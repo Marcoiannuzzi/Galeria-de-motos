@@ -1,0 +1,11 @@
+p.destacado{
+    color: blue;
+}
+
+a.destacado{
+    color: red;
+}
+
+p.destacado.error{
+    color: green;
+}
