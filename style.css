@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+body{
+    grid-area: "header header header header header"
+    "section section section section section"
+    "footer footer footer footer footer";
+}
+header{
+    grid-area: header;
+}
+
+section{
+    grid-area: section;
+}
 
 section h1{
     text-align: center;
@@ -22,6 +34,7 @@ header{
 }
 
 .footer{
+    grid-area: footer;
     padding: 50px;
     display: flex;
     justify-content: center;
