@@ -40,3 +40,13 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.borde:hover{
+    border: 1px solid rgb(240, 8, 8);
+}
